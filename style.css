@@ -49,10 +49,6 @@ nav ul {
     display: flex;
 }
 
-.nav-items :hover {
-    transform: ;
-}
-
 .nav-items li {
     list-style: none;
     margin-right: 100px;
