@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* Navigation */
+
+.nav-container {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 102px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav .logo {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    color: #000000;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 100px;
+    position: absolute;
+    width: 549px;
+    height: 41px;
+    left: 733px;
+    top: 29px;
+    justify-content: space-between;
+}
+
+.nav-items li:nth-last-of-type(1) {
+    margin: 0;
+    justify-content: space-between;
+}
+
+.nav-items li a {
+    color: #000000;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.header-container {
+    background: #F87700 url("images/desgn.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+
+header p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+header .hero-image {
+    position: relative;
+}
+
+header .hero-image img {
+    transition: 300ms;
+}
+
+header .hero-image img:hoverv {
+    transform: rotate(-6deg);
+}
+
+.search-box {
+    display: none;
+}
